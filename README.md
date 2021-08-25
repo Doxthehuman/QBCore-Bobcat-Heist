@@ -13,7 +13,19 @@ Doorlock Coords
 
 
 
+
+
+
+
+
+
  --Bobcat
+ 
+
+["thermitec"] 				 	 = {["name"] = "thermitec",				    	["label"] = "Thermite Charge",			["weight"] = 1000,		["type"] = "item",		["image"] = "thermitec.png",		    ["unique"] = false,		["useable"] = true,		["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Go Burning"},
+
+
+
 	{
 		textCoords = vector3(882.19177, -2258.54, 32.441696),
 		authorizedJobs = { 'police' },
