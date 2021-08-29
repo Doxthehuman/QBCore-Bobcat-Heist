@@ -35,7 +35,7 @@ end)
 DoxCore.Functions.CreateUseableItem("thermitec", function(source, item)
     local Player = DoxCore.Functions.GetPlayer(source)
 	if Player.Functions.GetItemByName('lighter') ~= nil then
-        TriggerClientEvent("Dox-minigamedoor2", source)
+        TriggerClientEvent("Dox-seconddoor", source)
     else
         TriggerClientEvent('DoxCore:Notify', source, "You are missing something to light the thermite..", "error")
     end
